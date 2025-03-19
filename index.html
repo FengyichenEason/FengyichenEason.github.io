@@ -3,16 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Eason Feng's GitHub Page</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-        h1 { color: #4CAF50; }
-        a { color: #007BFF; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+        }
+        .container {
+            padding: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #4CAF50;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        footer {
+            margin: 20px 0;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 10px 25px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
     </style>
 </head>
 <body>
-    <h1>Hello, I'm Rocky!</h1>
-    <p>Welcome to my GitHub Page 🚀</p>
-    <a href="https://github.com/your-username">Visit My GitHub</a>
+
+<header>
+    <h1>Welcome to Eason Feng's GitHub Page 🚀</h1>
+</header>
+
+<div class="container">
+    <!-- 上传的照片 -->
+    <img src="images/eason.jpg" alt="Eason Feng">
+
+    <p>Hello! I'm <strong>Eason Feng</strong>, a Transportation Engineering student at Beihang University.</p>
+    <p>Feel free to check out my GitHub profile and projects:</p>
+
+    <a href="https://github.com/your-username" class="btn" target="_blank">Visit My GitHub</a>
+</div>
+
+<footer>
+    <p>© 2025 Eason Feng | Beihang University</p>
+</footer>
+
 </body>
 </html>
